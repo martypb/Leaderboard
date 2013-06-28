@@ -1,8 +1,15 @@
-/*global Ember, DS */
+/*global Ember */
 
 var LbApp = window.LbApp = Ember.Application.create();
 
+// Create the Windows Azure Mobile Services client 
+LbApp.wamClient = new WindowsAzure.MobileServiceClient(
+    "https://leaderboard.azure-mobile.net/",
+    "KagiBlvirAJQlSPXAapzxJCgHLeFLL96"
+);
+
 /* Order and include as you please. */
+require('scripts/wamAdapter');
 // require('scripts/routes/*');
 // require('scripts/controllers/*');
 require('scripts/models/*');
@@ -15,10 +22,10 @@ LbApp.Router.map(function () {
   this.route("scorecard");
 });
 
-LbApp.Store = DS.Store.extend({
-	revision: 12,
-	adapter: 'DS.FixtureAdapter'
-});
+// LbApp.Store = DS.Store.extend({
+// 	revision: 12,
+// 	adapter: 'DS.FixtureAdapter'
+// });
 
 LbApp.IndexRoute = Ember.Route.extend({
   model: function () {
@@ -28,6 +35,7 @@ LbApp.IndexRoute = Ember.Route.extend({
 
 LbApp.CoursesRoute = Ember.Route.extend({
 	model: function() {
-		return LbApp.Course.find();
+		return LbApp.Course.findAll();
 	}
 });
+

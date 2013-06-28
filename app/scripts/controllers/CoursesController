@@ -1,0 +1,3 @@
+LbApp.CoursesController = Ember.Controller.extend({
+	
+});
