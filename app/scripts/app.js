@@ -1,6 +1,17 @@
 /*global Ember */
 
-var LbApp = window.LbApp = Ember.Application.create();
+// set up a global error handler to log to console
+// Ember.onerror = function(error) {
+//     console.log('error :');
+//     console.log(error);
+//     console.log('stack : ');
+//     console.log(error.stack);
+//   };
+
+var LbApp = window.LbApp = Ember.Application.create({
+    LOG_TRANSITIONS: true,
+    LOG_BINDINGS: true
+});
 
 // Create the Windows Azure Mobile Services client 
 LbApp.wamClient = new WindowsAzure.MobileServiceClient(
@@ -10,32 +21,17 @@ LbApp.wamClient = new WindowsAzure.MobileServiceClient(
 
 /* Order and include as you please. */
 require('scripts/wamAdapter');
-// require('scripts/routes/*');
-// require('scripts/controllers/*');
 require('scripts/models/*');
+require('scripts/routes/*');
+// require('scripts/controllers/*');
+
 // require('scripts/views/*');
 
 LbApp.Router.map(function () {
   // put your routes here
-  this.route("courses");
+  this.resource('courses', function() {
+    this.route('course', { path : ':course_id'});
+  });
   this.route("leaderboard");
   this.route("scorecard");
 });
-
-// LbApp.Store = DS.Store.extend({
-// 	revision: 12,
-// 	adapter: 'DS.FixtureAdapter'
-// });
-
-LbApp.IndexRoute = Ember.Route.extend({
-  model: function () {
-    return ['red', 'yellow', 'blue', 'brown'];
-  }
-});
-
-LbApp.CoursesRoute = Ember.Route.extend({
-	model: function() {
-		return LbApp.Course.findAll();
-	}
-});
-

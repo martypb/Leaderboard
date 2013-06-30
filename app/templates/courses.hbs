@@ -3,7 +3,11 @@
 
 	<ul>
 		{{#each model}}
-		<li>{{Name}}</li>
+		<li>{{#linkTo 'courses.course' this}}{{Name}}{{/linkTo}}</li>
 		{{/each}}
 	</ul>
+</div>
+
+<div id="coursePanel">
+	{{outlet}}
 </div>

@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/index.html",
+			"file": "app/templates/scorecard.hbs",
 			"settings":
 			{
-				"buffer_size": 1049,
+				"buffer_size": 489,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +19,31 @@
 			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 885,
+				"buffer_size": 954,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/routes/ScorecardRoute.js",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/models/Scorecard.js",
+			"settings":
+			{
+				"buffer_size": 987,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/index.hbs",
+			"settings":
+			{
+				"buffer_size": 364,
 				"line_ending": "Unix"
 			}
 		}
@@ -68,22 +92,41 @@
 	},
 	"file_history":
 	[
-		"/home/dave/dev/leaderboard/app/scripts/models/Course.js",
-		"/home/dave/dev/leaderboard/app/scripts/app.js",
 		"/home/dave/dev/leaderboard/app/scripts/controllers/CoursesController",
-		"/home/dave/dev/leaderboard/app/index.html",
-		"/home/dave/dev/leaderboard/app/templates/index.hbs",
-		"/home/dave/dev/leaderboard/app/templates/application.hbs",
-		"/home/dave/dev/leaderboard/app/templates/courses.hbs",
-		"/home/dave/dev/leaderboard/app/templates/leaderboard.hbs",
-		"/home/dave/dev/leaderboard/app/templates/scorecard.hbs",
+		"/home/dave/dev/leaderboard/app/scripts/models/Course.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/ScorecardRoute.js",
 		"/home/dave/dev/leaderboard/README",
+		"/home/dave/dev/leaderboard/app/scripts/app.js",
+		"/home/dave/dev/leaderboard/app/templates/scorecard.hbs",
+		"/home/dave/dev/leaderboard/app/scripts/models/Scorecard.js",
+		"/home/dave/dev/leaderboard/app/templates/courses.hbs",
 		"/home/dave/dev/leaderboard/Gruntfile.js",
+		"/home/dave/dev/leaderboard/package.json",
+		"/home/dave/dev/leaderboard/bower.json",
+		"/home/dave/dev/leaderboard/EmberDebug.js",
+		"/home/dave/dev/leaderboard/app/templates/courses/course.hbs",
+		"/home/dave/dev/leaderboard/app/templates/index.hbs",
+		"/home/dave/dev/leaderboard/app/scripts/routes/IndexRoute.js",
 		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesRoute.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesCourseRoute.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesCourseRoute",
+		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesRoute",
+		"/home/dave/dev/leaderboard/app/templates/courses.course.hbs",
+		"/home/dave/dev/leaderboard/app/templates/coursescourse.hbs",
+		"/home/dave/dev/leaderboard/app/templates/course.hbs",
+		"/home/dave/dev/leaderboard/app/templates/coursesCourse.hbs",
+		"/home/dave/dev/leaderboard/app/index.html",
+		"/home/dave/dev/leaderboard/app/scripts/wamAdapter.js",
+		"/home/dave/dev/leaderboard/app/templates/courses_course.hbs",
+		"/home/dave/dev/leaderboard/app/templates/courses/courses_course.hbs",
+		"/home/dave/dev/leaderboard/app/scripts/ember-model-wam.js",
+		"/home/dave/.config/sublime-text-2/Packages/User/Git.sublime-settings",
+		"/home/dave/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+		"/home/dave/dev/leaderboard/app/templates/application.hbs",
+		"/home/dave/dev/leaderboard/app/templates/leaderboard.hbs",
 		"/home/dave/dev/leaderboard/app/scripts/controllers/CoursesController.js",
 		"/home/dave/dev/leaderboard/app/scripts/controllers/ScorecardController.js",
 		"/home/dave/dev/leaderboard/app/scripts/controllers/LeaderboardController.js",
-		"/home/dave/dev/leaderboard/app/scripts/routes/IndexRoute.js",
 		"/home/dave/dev/yeomantest/Gruntfile.js",
 		"/home/dave/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/dave/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
@@ -122,6 +165,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DS",
 			"build",
 			"compass"
 		],
@@ -141,122 +185,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/index.html",
+					"file": "app/templates/scorecard.hbs",
 					"settings":
 					{
-						"buffer_size": 1049,
+						"buffer_size": 489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								566,
-								566
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-								"html": "tidy"
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": true,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"HTML": "html",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -269,113 +220,102 @@
 					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 885,
+						"buffer_size": 954,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								346,
+								346
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-								"html": "tidy"
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": true,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"HTML": "html",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/routes/ScorecardRoute.js",
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/models/Scorecard.js",
+					"settings":
+					{
+						"buffer_size": 987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/templates/index.hbs",
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -417,6 +357,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.git":
+	{
+		"height": 106.0
+	},
 	"replace":
 	{
 		"height": 0.0
