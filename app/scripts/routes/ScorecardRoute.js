@@ -1,5 +1,7 @@
 LbApp.ScorecardRoute = Ember.Route.extend({
-	model : function() {
-		return LbApp.Scorecard.find(1);
-	}
+  model: function() {
+    var mdl = LbApp.Scorecard.find(1);
+
+    return mdl;
+  }
 });

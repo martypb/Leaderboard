@@ -8,18 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/templates/scorecard.hbs",
+			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 489,
+				"buffer_size": 956,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/scripts/app.js",
+			"file": "app/scripts/wamAdapter.js",
 			"settings":
 			{
-				"buffer_size": 954,
+				"buffer_size": 962,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,23 +27,7 @@
 			"file": "app/scripts/routes/ScorecardRoute.js",
 			"settings":
 			{
-				"buffer_size": 106,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/models/Scorecard.js",
-			"settings":
-			{
-				"buffer_size": 987,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/index.hbs",
-			"settings":
-			{
-				"buffer_size": 364,
+				"buffer_size": 129,
 				"line_ending": "Unix"
 			}
 		}
@@ -92,23 +76,28 @@
 	},
 	"file_history":
 	[
-		"/home/dave/dev/leaderboard/app/scripts/controllers/CoursesController",
-		"/home/dave/dev/leaderboard/app/scripts/models/Course.js",
-		"/home/dave/dev/leaderboard/app/scripts/routes/ScorecardRoute.js",
-		"/home/dave/dev/leaderboard/README",
+		"/home/dave/dev/leaderboard/app/templates/index.hbs",
 		"/home/dave/dev/leaderboard/app/scripts/app.js",
 		"/home/dave/dev/leaderboard/app/templates/scorecard.hbs",
+		"/home/dave/dev/leaderboard/app/templates/scorecards/scorecard.hbs",
+		"/home/dave/dev/leaderboard/app/templates/scorecards.hbs",
+		"/home/dave/dev/leaderboard/app/scripts/routes/ScorecardRoute.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/ScorecardsScorecardRoute.js",
 		"/home/dave/dev/leaderboard/app/scripts/models/Scorecard.js",
 		"/home/dave/dev/leaderboard/app/templates/courses.hbs",
+		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesRoute.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/ScorecardsRoute.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesCourseRoute.js",
+		"/home/dave/dev/leaderboard/app/scripts/routes/ScorecardsRoute",
+		"/home/dave/dev/leaderboard/app/scripts/controllers/CoursesController",
+		"/home/dave/dev/leaderboard/app/scripts/models/Course.js",
+		"/home/dave/dev/leaderboard/README",
 		"/home/dave/dev/leaderboard/Gruntfile.js",
 		"/home/dave/dev/leaderboard/package.json",
 		"/home/dave/dev/leaderboard/bower.json",
 		"/home/dave/dev/leaderboard/EmberDebug.js",
 		"/home/dave/dev/leaderboard/app/templates/courses/course.hbs",
-		"/home/dave/dev/leaderboard/app/templates/index.hbs",
 		"/home/dave/dev/leaderboard/app/scripts/routes/IndexRoute.js",
-		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesRoute.js",
-		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesCourseRoute.js",
 		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesCourseRoute",
 		"/home/dave/dev/leaderboard/app/scripts/routes/CoursesRoute",
 		"/home/dave/dev/leaderboard/app/templates/courses.course.hbs",
@@ -185,29 +174,30 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/templates/scorecard.hbs",
+					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 489,
+						"buffer_size": 956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								956,
+								956
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -217,18 +207,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/scripts/app.js",
+					"file": "app/scripts/wamAdapter.js",
 					"settings":
 					{
-						"buffer_size": 954,
+						"buffer_size": 962,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								346,
-								346
+								324,
+								324
 							]
 						],
 						"settings":
@@ -248,74 +238,20 @@
 					"file": "app/scripts/routes/ScorecardRoute.js",
 					"settings":
 					{
-						"buffer_size": 106,
+						"buffer_size": 129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97,
-								97
+								129,
+								129
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/scripts/models/Scorecard.js",
-					"settings":
-					{
-						"buffer_size": 987,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								249,
-								249
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/templates/index.hbs",
-					"settings":
-					{
-						"buffer_size": 364,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								266,
-								266
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

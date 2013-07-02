@@ -32,6 +32,6 @@ LbApp.Router.map(function () {
   this.resource('courses', function() {
     this.route('course', { path : ':course_id'});
   });
-  this.route("leaderboard");
-  this.route("scorecard");
-});
+  this.route('leaderboard');
+  this.route('scorecard');
+  });

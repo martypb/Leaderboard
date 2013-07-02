@@ -1,8 +1,8 @@
 LbApp.Scorecard = Ember.Model.extend({
 	id : Ember.attr('number'),
 	TeeId : Ember.attr('number'),
-	UserName : Ember.attr('string') //,
-	// DatePlayed : Ember.attr('date'),
+	UserName : Ember.attr('string'),
+	DatePlayed : Ember.attr('date')
 	// Hole1Score : Ember.attr('number'),
 	// Hole2Score : Ember.attr('number'),
 	// Hole3Score : Ember.attr('number'),
