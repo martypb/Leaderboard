@@ -28,18 +28,6 @@ module.exports = function (grunt) {
                 files: '<%= yeoman.app %>/templates/**/*.hbs',
                 tasks: ['emberTemplates', 'livereload']
             },
-            coffee: {
-                files: ['<%= yeoman.app %>/scripts/**/*.coffee'],
-                tasks: ['coffee:dist']
-            },
-            coffeeTest: {
-                files: ['test/spec/**/*.coffee'],
-                tasks: ['coffee:test']
-            },
-            // compass: {
-            //     files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}'],
-            //     tasks: ['compass:server']
-            // },
             neuter: {
                 files: ['<%= yeoman.app %>/scripts/**/*.js'],
                 tasks: ['neuter', 'livereload']
@@ -127,58 +115,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-        coffee: {
-            dist: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= yeoman.app %>/scripts',
-                    src: '**/*.coffee',
-                    dest: '.tmp/scripts',
-                    ext: '.js'
-                }]
-            },
-            test: {
-                files: [{
-                    expand: true,
-                    cwd: 'test/spec',
-                    src: '**/*.coffee',
-                    dest: '.tmp/spec',
-                    ext: '.js'
-                }]
-            }
-        },
-        // compass: {
-        //     options: {
-        //         sassDir: '<%= yeoman.app %>/styles',
-        //         cssDir: '.tmp/styles',
-        //         generatedImagesDir: '.tmp/images/generated',
-        //         imagesDir: '<%= yeoman.app %>/images',
-        //         javascriptsDir: '<%= yeoman.app %>/scripts',
-        //         fontsDir: '<%= yeoman.app %>/styles/fonts',
-        //         importPath: 'app/bower_components',
-        //         httpImagesPath: '/images',
-        //         httpGeneratedImagesPath: '/images/generated',
-        //         httpFontsPath: '/styles/fonts',
-        //         relativeAssets: false
-        //     },
-        //     dist: {},
-        //     server: {
-        //         options: {
-        //             debugInfo: true
-        //         }
-        //     }
-        // },
-        // not used since Uglify task does concat,
-        // but still available if needed
-        /*concat: {
-            dist: {}
-        },*/
-        // not enabled since usemin task does concat and uglify
-        // check index.html to edit your build targets
-        // enable this task if you prefer defining your build targets here
-        /*uglify: {
-            dist: {}
-        },*/
         rev: {
             dist: {
                 files: {
@@ -274,18 +210,11 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server: [
-                'emberTemplates',
-                'coffee:dist'//,
-                // 'compass:server'
+                'emberTemplates'
             ],
-            test: [
-                'coffee'//,
-                // 'compass'
-            ],
+            test: [],
             dist: [
                 'emberTemplates',
-                'coffee',
-                // 'compass:dist',
                 'imagemin',
                 'svgmin',
                 'htmlmin'
