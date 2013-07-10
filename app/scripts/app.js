@@ -23,7 +23,7 @@ LbApp.wamClient = new WindowsAzure.MobileServiceClient(
 require('scripts/wamAdapter');
 require('scripts/models/*');
 require('scripts/routes/*');
-// require('scripts/controllers/*');
+require('scripts/controllers/*');
 
 // require('scripts/views/*');
 
@@ -33,5 +33,5 @@ LbApp.Router.map(function () {
     this.route('course', { path : ':course_id'});
   });
   this.route('leaderboard');
-  this.route('scorecard');
+  this.route('scorecard', { path : '/scorecard/:scorecard_id'});
   });

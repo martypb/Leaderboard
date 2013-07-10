@@ -1,5 +1,5 @@
 LbApp.Course = Ember.Model.extend({
-	id : Ember.attr('number'),
+	id : Ember.attr(),
 	Name : Ember.attr('string'),
 	City : Ember.attr('string'),
 	State : Ember.attr('string'),

@@ -6,9 +6,9 @@ LbApp.WAMAdapter = Ember.Object.extend({
   },
 
   find: function(record, id) {
-    var query = this.table.where({ id: id });
-    return query.read().then(function(data) {
-      Ember.run(record, record.load, data);
+    var query = this.table.lookup(id);
+    return query.then(function(data) {
+      Ember.run(record, record.load, id, data);
     });
   },
 
