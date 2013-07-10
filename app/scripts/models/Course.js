@@ -1,10 +1,10 @@
 LbApp.Course = Ember.Model.extend({
 	id : Ember.attr(),
-	Name : Ember.attr('string'),
-	City : Ember.attr('string'),
-	State : Ember.attr('string'),
-	ZipCode : Ember.attr('string'),
-	WebsiteUrl : Ember.attr('string')
+	Name : Ember.attr(),
+	City : Ember.attr(),
+	State : Ember.attr(),
+	ZipCode : Ember.attr(),
+	WebsiteUrl : Ember.attr()
 });
 
 LbApp.Course.adapter = LbApp.WAMAdapter.create({ table: LbApp.wamClient.getTable('Course') });
