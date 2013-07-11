@@ -16,75 +16,27 @@
 			}
 		},
 		{
-			"file": "app/scripts/controllers/ScorecardController.js",
+			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 1376,
+				"buffer_size": 8626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/.bowerrc",
+			"settings":
+			{
+				"buffer_size": 39,
 				"line_ending": "Unix",
-				"name": "LbApp.ScorecardController = Ember.ObjectController"
+				"name": "{"
 			}
 		},
 		{
-			"file": "app/scripts/routes/ScorecardRoute.js",
+			"file": "test/bower.json",
 			"settings":
 			{
-				"buffer_size": 133,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/models/Scorecard.js",
-			"settings":
-			{
-				"buffer_size": 753,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "EmberDebug.js",
-			"settings":
-			{
-				"buffer_size": 1386,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/wamAdapter.js",
-			"settings":
-			{
-				"buffer_size": 952,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/index.html",
-			"settings":
-			{
-				"buffer_size": 1075,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/bower_components/ember-model/README.md",
-			"settings":
-			{
-				"buffer_size": 7508,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bower.json",
-			"settings":
-			{
-				"buffer_size": 244,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/scorecard.hbs",
-			"settings":
-			{
-				"buffer_size": 1104,
+				"buffer_size": 215,
 				"line_ending": "Unix"
 			}
 		}
@@ -133,21 +85,27 @@
 	},
 	"file_history":
 	[
+		"/home/dave/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/dave/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/dave/dev/Leaderboard/app/scripts/controllers/ScorecardController.js",
+		"/home/dave/dev/Leaderboard/app/scripts/routes/ScorecardRoute.js",
+		"/home/dave/dev/Leaderboard/app/scripts/models/Scorecard.js",
+		"/home/dave/dev/Leaderboard/app/scripts/wamAdapter.js",
+		"/home/dave/dev/Leaderboard/app/index.html",
+		"/home/dave/dev/Leaderboard/app/bower_components/ember-model/README.md",
+		"/home/dave/dev/Leaderboard/bower.json",
+		"/home/dave/dev/Leaderboard/app/templates/scorecard.hbs",
 		"/home/dave/dev/Leaderboard/app/scripts/models/Course.js",
+		"/home/dave/dev/Leaderboard/app/templates/index.hbs",
+		"/home/dave/dev/Leaderboard/app/scripts/routes/IndexRoute.js",
+		"/home/dave/dev/Leaderboard/EmberDebug.js",
 		"/home/dave/dev/Leaderboard/app/bower_components/ember-model/Gruntfile.js",
 		"/home/dave/dev/Leaderboard/app/bower_components/ember-model/.jshintrc",
 		"/home/dave/dev/Leaderboard/app/bower_components/ember-model/tasks/options/banner.js",
-		"/home/dave/dev/Leaderboard/app/bower_components/ember-model/README.md",
 		"/home/dave/dev/Leaderboard/package.json",
 		"/home/dave/dev/Leaderboard/.bowerrc",
-		"/home/dave/dev/Leaderboard/app/index.html",
-		"/home/dave/dev/Leaderboard/app/scripts/routes/IndexRoute.js",
-		"/home/dave/dev/Leaderboard/app/templates/index.hbs",
 		"/home/dave/dev/Leaderboard/Gruntfile.js",
-		"/home/dave/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/dave/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/dave/siblime-settings-backup",
-		"/home/dave/dev/Leaderboard/app/scripts/wamAdapter.js",
 		"/home/dave/dev/Leaderboard/leaderboard.sublime-project",
 		"/home/dave/dev/leaderboard/app/templates/index.hbs",
 		"/home/dave/dev/leaderboard/app/scripts/app.js",
@@ -249,7 +207,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -264,8 +222,8 @@
 						"selection":
 						[
 							[
-								985,
-								985
+								738,
+								738
 							]
 						],
 						"settings":
@@ -282,157 +240,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/scripts/controllers/ScorecardController.js",
+					"file": "Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 1376,
+						"buffer_size": 8626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1376,
-								1376
-							]
-						],
-						"settings":
-						{
-							"auto_name": "LbApp.ScorecardController = Ember.ObjectController",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/scripts/routes/ScorecardRoute.js",
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/scripts/models/Scorecard.js",
-					"settings":
-					{
-						"buffer_size": 753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								753,
-								753
+								396,
+								396
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "EmberDebug.js",
-					"settings":
-					{
-						"buffer_size": 1386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449,
-								449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/scripts/wamAdapter.js",
-					"settings":
-					{
-						"buffer_size": 952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								225
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/index.html",
-					"settings":
-					{
-						"buffer_size": 1075,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								304
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -443,52 +267,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "app/bower_components/ember-model/README.md",
+					"buffer": 2,
+					"file": "test/.bowerrc",
 					"settings":
 					{
-						"buffer_size": 7508,
+						"buffer_size": 39,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6074,
-								6074
+								39,
+								39
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3618.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "bower.json",
-					"settings":
-					{
-						"buffer_size": 244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								179,
-								179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"auto_name": "{",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -497,25 +294,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "app/templates/scorecard.hbs",
+					"buffer": 3,
+					"file": "test/bower.json",
 					"settings":
 					{
-						"buffer_size": 1104,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1062,
-								1062
+								215,
+								215
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
